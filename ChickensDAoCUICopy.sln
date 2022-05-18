@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChickensDAoCUICopy", "WindowsFormsApp1\ChickensDAoCUICopy.csproj", "{FE77D99B-6D89-4164-B4EB-BC0A5B11FA3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChickensDAoCUICopy", "ChickensDAoCUICopy\ChickensDAoCUICopy.csproj", "{FE77D99B-6D89-4164-B4EB-BC0A5B11FA3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
