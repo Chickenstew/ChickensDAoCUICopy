@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace ChickensDAoCUICopy
 {
     public partial class Form1 : Form
     {
