@@ -1,4 +1,4 @@
-# Chicken's Lazy UI Copy for DAoC
+# Chicken's Lazy UI Copy for Dark Age of Camelot
 
 Like the way you have your UI setup and want to keep that setup nice and simple without having to do it manually or goto the appdata folder?
 
