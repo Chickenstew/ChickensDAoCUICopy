@@ -8,7 +8,6 @@ namespace ChickensDAoCUICopy
     {
         public Form1()
         {
-
             InitializeComponent();
         }
 
@@ -41,29 +40,13 @@ namespace ChickensDAoCUICopy
             }
             string copyfrompath = comboBox1.Text;
             string copytopath = comboBox2.Text;
-            string toserverid = "";
-            string fromserverid = "";
+            string toserverid = ServerInfo.serverId[copytopath];
+            string fromserverid = ServerInfo.serverId[copyfrompath];
             string appdatagetter = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
             CultureInfo cultureInfo = System.Threading.Thread.CurrentThread.CurrentCulture;
             TextInfo textInfo = cultureInfo.TextInfo;
             textBox1.Text = textInfo.ToTitleCase(textBox1.Text);
             textBox2.Text = textInfo.ToTitleCase(textBox2.Text);
-            if (copytopath == "Atlas")
-            {
-                toserverid = "-5.ini";
-            }
-            else
-            {
-                toserverid = "-41.ini";
-            }
-            if (copyfrompath == "Atlas")
-            {
-                fromserverid = "-5.ini";
-            }
-            else
-            {
-                fromserverid = "-41.ini";
-            }
             if (System.IO.File.Exists($"{appdatagetter}\\Electronic Arts\\Dark Age of Camelot\\{copyfrompath}\\{textBox1.Text}{fromserverid}"))
             {
                 if (System.IO.File.Exists($"{appdatagetter}\\Electronic Arts\\Dark Age of Camelot\\{copytopath}\\{textBox2.Text}{toserverid}"))
@@ -94,7 +77,7 @@ namespace ChickensDAoCUICopy
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"Use this if UI is not stored in the phoenix folder in AppData. Win7 seems to use LotM and Win10 phoenix.\n\n Try to use phoenix first.");
+            MessageBox.Show($"Step 1: Enter Name of character you wish to copy the UI from and to.\n\nStep 2: Set the server you are copying the UI data from and to.\n\nStep 3: Hit Copy.\n\n This can be done at the character select screen.");
         }
 
         private void button3_Click(object sender, EventArgs e)
