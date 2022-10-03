@@ -8,7 +8,8 @@ namespace ChickensDAoCUICopy
         {
             {"Atlas", "-5.ini" },
             {"phoenix", "-41.ini" },
-            {"LotM", "-41.ini" }
+            {"LotM", "-41.ini" },
+            {"eden", "-41.ini" }
 
         };
         

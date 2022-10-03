@@ -91,7 +91,8 @@
             this.comboBox1.Items.AddRange(new object[] {
             "phoenix",
             "LotM",
-            "Atlas"});
+            "Atlas",
+            "eden"});
             this.comboBox1.Location = new System.Drawing.Point(78, 29);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(106, 21);
@@ -105,7 +106,8 @@
             this.comboBox2.Items.AddRange(new object[] {
             "phoenix",
             "LotM",
-            "Atlas"});
+            "Atlas",
+            "eden"});
             this.comboBox2.Location = new System.Drawing.Point(246, 29);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(100, 21);
