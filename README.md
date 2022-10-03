@@ -15,4 +15,6 @@ You can even pre-create the config if you would like and the copy will create th
 
 **Atlas** 
 
+**Eden**
+
 Feel free to suggest other servers. [Here](https://github.com/Chickenstew/ChickensDAoCUICopy/issues/1)
