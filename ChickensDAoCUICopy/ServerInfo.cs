@@ -4,14 +4,14 @@ namespace ChickensDAoCUICopy
 {
     public class ServerInfo
     {
-        public static readonly Dictionary<string, string> serverId = new Dictionary<string, string>()
+        public static readonly Dictionary<string, List<string>> serverId = new Dictionary<string, List<string>>()
         {
-            {"Atlas", "-5.ini" },
-            {"phoenix", "-41.ini" },
-            {"LotM", "-41.ini" },
-            {"eden", "-41.ini" },
-            {"Blackthorn", "-5.ini"},
-            {"OpenDAoC", "-41.ini" }
+            {"Atlas",new List<string>{ "Atlas", "-5.ini"} },
+            {"phoenix", new List<string>{ "phoenix", "-41.ini"} },
+            {"LotM", new List<string>{ "LotM", "-41.ini"} },
+            {"eden", new List<string>{ "eden", "-41.ini"} },
+            {"Blackthorn", new List<string>{ "Blackthorn", "-5.ini"} },
+            {"OpenDAoC", new List<string>{ "Atlas", "-5.ini"} }
 
         };
         

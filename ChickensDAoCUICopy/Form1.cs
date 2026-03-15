@@ -38,10 +38,10 @@ namespace ChickensDAoCUICopy
                 MessageBox.Show("You must provide a character to copy to.");
                 return;
             }
-            string copyfrompath = comboBox1.Text;
-            string copytopath = comboBox2.Text;
-            string toserverid = ServerInfo.serverId[copytopath];
-            string fromserverid = ServerInfo.serverId[copyfrompath];
+            string copyfrompath = ServerInfo.serverId[comboBox1.Text][0];
+            string copytopath = ServerInfo.serverId[comboBox2.Text][0];
+            string toserverid = ServerInfo.serverId[copytopath][1];
+            string fromserverid = ServerInfo.serverId[copyfrompath][1];
             string appdatagetter = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
             CultureInfo cultureInfo = System.Threading.Thread.CurrentThread.CurrentCulture;
             TextInfo textInfo = cultureInfo.TextInfo;
