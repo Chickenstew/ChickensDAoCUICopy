@@ -10,7 +10,8 @@ namespace ChickensDAoCUICopy
             {"phoenix", "-41.ini" },
             {"LotM", "-41.ini" },
             {"eden", "-41.ini" },
-            {"Blackthorn", "-5.ini"}
+            {"Blackthorn", "-5.ini"},
+            {"OpenDAoC", "-41.ini" }
 
         };
         
